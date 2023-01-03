@@ -1,0 +1,8 @@
+<div class="note">
+            <div class="operations">
+                <button><i class="edit fa-solid fa-pen-to-square"></i></button>
+                <button><i class="trash fa-solid fa-trash"></i></button>
+            </div>
+            <div class="main"></div>
+            <textarea id="textarea"></textarea>
+        </div>
