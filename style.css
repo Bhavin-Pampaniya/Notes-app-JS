@@ -196,10 +196,37 @@ button:hover .button-text {
         inset 0 -1px 0 rgba(0, 0, 0, 0.1);
 }
 
+#title{
+    position: absolute;
+    top: 18px;
+    left: 5px;
+    outline: none;
+    width: 65%;
+    height: 15px; 
+    padding: 0.2rem;
+    margin: 0.1rem;
+    border: none;
+    font-weight:bold;
+    font-size: 1.3rem;
+}
+.title{
+    position: absolute;
+    left: 5px;
+    outline: none;
+    width: 65%;
+    height: 15px; 
+    padding: 0.2rem;
+    margin: 0.8px;
+    border: none;
+    font-weight:bold;
+    font-size: 1.5rem;
+}
 .operations {
+    position: relative;
     display: flex;
     justify-content: flex-end;
     padding: 0.5rem;
+    align-items: center;
 }
 
 .operations button {
@@ -238,7 +265,7 @@ button:hover .button-text {
     font-size: 1rem;
     padding: 10px;
     width: 100%;
-    height: 100%;
+    height: 57%;
     resize: none;
     border: none;
 }
@@ -248,44 +275,11 @@ button:hover .button-text {
     font-weight: bolder;
     display: block;
     max-width: 100%;
-    word-wrap: break-word;
-    height: 100%;
+    word-wrap:break-word;
+    height: 57%;
     font-size: 1rem;
     padding: 10px;
 }
 .hidden{
     display: none;
-}
-
-@media screen and (max-width: 660px) {
- .note{
-    height: 100px;
-    width: 200px;
- }
- /* .addNote{
- } */
- h2{
-    font-size: 1rem;
- }
- #search{
-    margin: 0em;
-    padding: .3em;
-    font-size: .8rem;
- }
- .search input{
-    margin: 0em;
-    padding: .2em;
-    font-size: .8rem;
- }
-}
-@media screen and (max-width: 380px) {
-    #search{
-        font-size: .6rem;
-     }
-     .search input{
-        font-size: .6rem;
-     }
-     h2{
-        font-size: .8rem;
-     }
 }
